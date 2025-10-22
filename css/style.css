@@ -1,0 +1,27 @@
+@font-face{
+    font-family: horror;
+    src: url(../Fonts/Super\ Kindly.ttf);
+}
+@font-face{
+    font-family:love;
+    src: url(../Fonts/BoostPlayer_PERSONAL_USE_ONLY.otf)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: blueviolet;
+    background-color: lightslategrey;
+    font-family: horror;
+}
+p{
+    color: brown;
+    font-family: love;
+    font-size: 20px;
+}

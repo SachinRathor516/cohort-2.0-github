@@ -1,0 +1,108 @@
+@font-face{
+    font-family: sachin;
+    src:url(../Fonts/MADE\ Mirage\ Thin\ PERSONAL\ USE.otf);
+}
+@font-face{
+    font-family: rathor;
+    src:url(../Fonts/Super\ Kindly.ttf)
+}
+@font-face{
+    font-family: baby;
+    src:url(../Fonts/BoostPlayer_PERSONAL_USE_ONLY.otf)
+}
+h2{
+    font-weight: 100;
+    font-family: rathor;
+}
+li{
+    font-weight: 700;
+    font-family: sachin;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+.name {
+    background-color: rgb(33, 42, 49);
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    font-family: sachin;
+    
+}
+.about{
+    background-color: rgb(251, 245, 245);
+    max-width: 1200px;
+    height: 150px;
+    padding-top: 30px;
+    font-style: italic;
+    
+}
+
+.education{
+background-color: rgb(223, 250, 223);
+max-width: 1200px;
+height: 200px;
+padding-top: 20px;
+}
+.education-list{
+    background-color: white;
+    width: 600px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px; 
+}
+.skills{
+    background-color:rgb(245, 233, 211);
+    max-width: 1200px;
+    height: 300px;
+    padding-top: 20px;
+}
+.skill-list{
+    background-color: white;
+    width: 600px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px; 
+    text-transform: uppercase;
+}
+.projects{
+    background-color:rgb(243, 211, 249);
+    max-width: 1200px;
+    height: 240px;
+    padding-top: 20px;
+}
+.project-list{
+    background-color: white;
+    width: 600px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px; 
+}
+.contacts{
+    background-color: rgb(211, 249, 246);
+    max-width: 1200px;
+    height: 250px;
+    padding-top: 20px;
+}
+.contact-list{
+    background-color: white;
+    width: 600px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 10px; 
+}
+.footer{
+    background-color: rgb(33, 42, 49);
+    color: white;
+    width: 100%;
+    height: 60px;
+    padding-top: 25px;
+    margin-top: 20px;
+}
