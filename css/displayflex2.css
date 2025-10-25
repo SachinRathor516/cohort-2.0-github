@@ -8,30 +8,40 @@ html,body{
     width: 100%;
     background-color: black;
 }
-
-/* align Y-line (cross axis) ke liye work krta mtlb height wise work krta h justify X-line(main axis) ke liye work krta h mtlb width wise work krta h */
 #parent{
     width: 100%;
     height: 100%;
-    display: flex; 
-   flex-direction:column;  /* default value row hoti h */
-   align-items: center;
-   justify-content: center;
-   justify-content: space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow-x: hidden; */
 }
 #box1{
     width: 200px;
     height: 200px;
     background-color: blueviolet;
-    /* clip-path: polygon(77% 0, 0 100%, 100% 36%, 65% 100%, 17% 37%); */
+    flex-shrink: 0;
 }
 #box2{
     width: 200px;
     height: 200px;
     background-color: orange;
+    flex-shrink: 0;
 }
 #box3{
     width: 200px;
     height: 200px;
     background-color: green;
+    flex-shrink: 0;
+}
+#box4{
+    width: 200px;
+    height: 200px;
+    background-color:hotpink;
+    flex-shrink: 0;
+}
+#box5{
+    width: 200px;
+    height: 200px;
+    background-color:maroon;
+    flex-shrink: 0;
 }

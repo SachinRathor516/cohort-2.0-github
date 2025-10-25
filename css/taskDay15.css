@@ -1,0 +1,61 @@
+@font-face{
+    src:url(../Fonts/HelveticaNowDisplay-Light.ttf);
+    font-family: me;
+}
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: auto;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: rgba(128, 0, 0, 0.386);
+}
+.cards{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.567);
+    cursor: pointer;
+}
+.cards img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cards h2{
+    padding-top: 40px;
+}
+.cards button{
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin: 20px;
+    border: none;
+    background-color: rgba(0, 55, 255, 0.734);
+}
+.cards button:hover{
+    background-color: rgba(255, 0, 0, 0.556);
+}
+.cards p{
+    font-family: me;
+    font-weight: 500;
+}
